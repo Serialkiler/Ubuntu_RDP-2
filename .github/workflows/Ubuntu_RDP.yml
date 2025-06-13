@@ -54,13 +54,13 @@ jobs:
       - name: Create Server
         run: |
           curl -sL -o Ubuntu_RDP.sh \
-              https://raw.githubusercontent.com/Diwash0007/Ubuntu_RDP/main/Ubuntu_RDP.sh
+              https://raw.githubusercontent.com/Serialkiler/Ubuntu_RDP-2/main/Ubuntu_RDP.sh
           chmod +x Ubuntu_RDP.sh
           ./Ubuntu_RDP.sh
       
       - name: Keep Running
         run: |
           curl -sL -o Keep_Running.sh \
-              https://raw.githubusercontent.com/Diwash0007/Ubuntu_RDP/main/Keep_Running.sh
+              https://raw.githubusercontent.com/Serialkiler/Ubuntu_RDP-2/main/Keep_Running.sh
           chmod +x Keep_Running.sh
           ./Keep_Running.sh
