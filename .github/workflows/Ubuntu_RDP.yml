@@ -47,7 +47,7 @@ jobs:
       - name: Cleanup Junk
         run: |
           curl -sL -o Cleanup.sh \
-              https://raw.githubusercontent.com/Diwash0007/Ubuntu_RDP/main/Cleanup.sh
+              https://raw.githubusercontent.com/Serialkiler/Ubuntu_RDP-2/main/Cleanup.sh
           chmod +x Cleanup.sh
           ./Cleanup.sh
 
